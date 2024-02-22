@@ -105,3 +105,64 @@ installing GTkWave
 
 
 </details>
+
+### The Second online meet was held on 20th of Feb 2024 @6PM
+
+<details>
+    <summary> TASK 2 </summary>
+
+### To identify Input ports, input waveforms, output ports and output waveforms of the design.
+
+### Universal Shift Register:
+A register that can store the data and /shifts the data towards the right and left along with the parallel load capability is known as a universal shift register. It can be used to perform input/output operations in both serial and parallel modes. Unidirectional shift registers and bidirectional shift registers are combined together to get the design of the universal shift register. It is also known as a parallel-in-parallel-out shift register or shift register with the parallel load.
+
+Universal shift registers are capable of performing 3 operations as listed below.
+
+1.Parallel load operation – stores the data in parallel as well as the data in parallel
+
+2.Shift left operation – stores the data and transfers the data shifting towards left in the serial path
+
+3.Shift right operation – stores the data and transfers the data by shifting towards right in the serial path.
+
+
+### *Column of I/O Elements:*
+
+| Sl.No   | Name of the Pin  | Direction | Description |
+|------------|------------|------------|---------|
+| 1. | (Q0,Q1,Q2,Q3) | Output     |Parallel output|
+| 2.   | (S0,S1)   | Input      |Select lines |
+| 3.   | Clk     | Input     | Clock Signal|
+| 4.     | (D0,D1,D2,D3)  | Input   |  Parallel Inputs |
+| 5.     | Rst(clear)    | Input    | Reset Signal|
+| 6.     | SIL    | Input     | Serial Input Left Shift|
+|  7.    |SIR     |Input   |  Serial Input Right Shift  |
+
+###  *Block Diagram of Universal shift register:*
+
+![BLOCK](https://github.com/rajesh0gouda/vsd-risc-v/assets/160471378/b93331a6-ec37-4702-b40e-94ad30a38b54)
+
+###  *Digital Logic circuit of Universal shift register:*
+
+![usr](https://github.com/rajesh0gouda/vsd-risc-v/assets/160471378/cb11b856-0630-4ba9-b4d1-8330582e48ea)
+
+###  *Modes Of Operation of Universal shift register:*
+
+|   S0    |   S1   |   Mode of Operation   |
+|-----------|------------|----------------------|
+|   0      |     0      |  Locked state (No change) |
+|   0    |       1   |    Shift-Left |
+|   1    |       0   |    Shift-Right |
+|   1   |       1   |    Parallel Load|
+
+###  *Input Waveform:*
+
+![Screenshot 2024-02-22 131437](https://github.com/rajesh0gouda/vsd-risc-v/assets/160471378/efa65461-319d-45c0-aefa-3980a69c1749)
+
+
+###  *Output Waveform:*
+
+![Screenshot 2024-02-22 131537](https://github.com/rajesh0gouda/vsd-risc-v/assets/160471378/466d401e-1dbb-4931-818c-f2ddc6a48bb2)
+
+
+</details>
+
