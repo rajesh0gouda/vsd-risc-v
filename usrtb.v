@@ -15,9 +15,9 @@ universal_shift_register uut(.parin(parin),.clr(clr),.clk(clk),.sel(sel),.out(ou
 end
 
 initial  begin 
+  out=4'b0000;
 clk=0;
-repeat(100)
-#20 clk=~clk;
+ always #20 clk=~clk;
 end
 
 initial  begin
