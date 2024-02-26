@@ -13,11 +13,13 @@ universal_shift_register uut(.parin(parin),.clr(clr),.clk(clk),.sel(sel),.out(ou
   
   $dumpvars(1);
 end
-
 initial  begin 
   out=4'b0000;
+end
+initial  begin 
 clk=0;
- always #20 clk=~clk;
+  repeat(100)
+ #20 clk=~clk;
 end
 
 initial  begin
