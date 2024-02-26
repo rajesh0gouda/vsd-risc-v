@@ -21,10 +21,6 @@ clk=0;
 end
 
 initial  begin
-parin=4'b1011;
-sel=2'b00;
-clr=1'b0;
-#40;
   
 parin=4'b1011;
 sel=2'b01;
@@ -34,6 +30,11 @@ clr=1'b0;
 
 parin=4'b1011;
 sel=2'b10;
+clr=1'b0;
+#40;
+  
+  parin=4'b1011;
+sel=2'b00;
 clr=1'b0;
 #40;
 
