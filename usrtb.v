@@ -32,16 +32,16 @@ parin=4'b1011;
 sel=2'b10;
 clr=1'b0;
 #40;
-  
+  parin=4'b1011;
+sel=2'b11;
+clr=1'b0;
+#40;
   parin=4'b1011;
 sel=2'b00;
 clr=1'b0;
 #40;
 
-parin=4'b1011;
-sel=2'b11;
-clr=1'b0;
-#40;
+
 
 end
 endmodule
