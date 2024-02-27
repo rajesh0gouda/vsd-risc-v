@@ -166,3 +166,44 @@ Universal shift registers are capable of performing 3 operations as listed below
 
 </details>
 
+### The Third online meet was held on 22th of Feb 2024 @6PM
+
+<details>
+    <summary> TASK 3 </summary>
+
+*Cloning my github repositories:*    
+```git clone https://github.com/sujankumarsj/VSD.git```
+
+![WhatsApp Image 2024-02-27 at 1 01 31 PM](https://github.com/rajesh0gouda/vsd-risc-v/assets/160471378/7b951873-e652-4aa9-8b1a-77487f4cf57c)
+
+
+*Simulating iverilog by taking files from the folder verilog_code* 
+```cd VSD```
+
+```cd verilog_code```
+
+```iverilog vend.v tb_vend.v```
+
+
+*Generating dump_file*
+
+```./a.out```
+
+![WhatsApp Image 2024-02-27 at 1 03 08 PM](https://github.com/rajesh0gouda/vsd-risc-v/assets/160471378/4c88b695-5cd3-4c6a-9d2b-e539a293bfa9)
+
+
+*To get I/O waveform*
+
+```gtkwave dumpfile.vcd```
+
+![WhatsApp Image 2024-02-27 at 1 02 56 PM](https://github.com/rajesh0gouda/vsd-risc-v/assets/160471378/8802c594-deb3-4f98-8b81-3f9caa179f95)
+
+
+### Wave Forms:
+###  *Input and Output waveform*
+
+![WhatsApp Image 2024-02-27 at 1 03 20 PM](https://github.com/rajesh0gouda/vsd-risc-v/assets/160471378/d6e2a459-54e3-4878-84b4-fecdc3182bf1)
+
+
+</details> 
+
