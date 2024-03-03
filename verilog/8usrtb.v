@@ -27,7 +27,8 @@ module iiitb_usr_tb;
             data_in=8'b11110000;
         #20 clear=1;    //reset
         #20 clear=0;
-            select=2'b10;  //load input
+            select=2'b10; //load input
+        #30 $finish;
     end
     
     always
