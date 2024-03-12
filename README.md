@@ -205,3 +205,47 @@ Universal shift registers are capable of performing 3 operations as listed below
 
 </details> 
 
+### The Fourth online meet was held on 27th of Feb 2024 @6PM
+
+<details>
+    <summary> TASK 4 </summary>
+
+*Invoking yosys inside verilog_code file:* 
+
+```yosys```
+
+![1](https://github.com/rajesh0gouda/vsd-risc-v/assets/160471378/9b5b4137-8daf-44eb-a680-91854454cdc2)
+
+
+
+*Reading the Library:* 
+
+```read_liberty -lib /home/rajeshgouda/vsd-risc-v/sky130_fd_sc_hd__tt_025C_1v80.lib```
+
+
+*Reading the Design:*    
+
+```read_verilog usr.v```
+
+
+*Specifying the module that we are synthesizing:*    
+
+```synth -top universal_shift_register```
+
+![2](https://github.com/rajesh0gouda/vsd-risc-v/assets/160471378/ee934cb3-5a73-4ad9-b792-996d1516611d)
+
+
+*To generate the netlist:*    
+
+```abc -liberty /home/rajeshgouda/vsd-risc-v/sky130_fd_sc_hd__tt_025C_1v80.lib```
+
+![3](https://github.com/rajesh0gouda/vsd-risc-v/assets/160471378/1a00793a-004a-46dc-b2e2-f59bbebdfe54)
+
+*To see the graphical version of the logic:*    
+
+```show```
+![4](https://github.com/rajesh0gouda/vsd-risc-v/assets/160471378/c735f042-1307-47b4-ba66-41e6a4b140d1)
+
+![5](https://github.com/rajesh0gouda/vsd-risc-v/assets/160471378/e537ec78-571c-45f1-8873-eba0bb0d32e0)
+
+
