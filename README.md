@@ -248,4 +248,102 @@ Universal shift registers are capable of performing 3 operations as listed below
 
 ![5](https://github.com/rajesh0gouda/vsd-risc-v/assets/160471378/e537ec78-571c-45f1-8873-eba0bb0d32e0)
 
+*To write the netlist:*    
+
+```write_verilog iusr_netlist.v```
+
+*Using the switch '-noattr' to get the simplified version of netlist file:*    
+
+```write_verilog -noattr iusr_netlist.v```
+
+```show```
+*To open the netlist:*    
+
+```!gvim iusr_netlist.v```
+
+
+![6](https://github.com/rajesh0gouda/vsd-risc-v/assets/160471378/46cc849a-34b5-4d9f-b378-756681ddd3de)
+
+
+*Opening the netlist file:*
+
+![7](https://github.com/rajesh0gouda/vsd-risc-v/assets/160471378/da5dfc6d-3357-4ccc-8fe3-550ffbee7a10)
+
+
+![8](https://github.com/rajesh0gouda/vsd-risc-v/assets/160471378/63065cc1-ac37-4efa-8596-39e1faa52d47)
+
+
+![9](https://github.com/rajesh0gouda/vsd-risc-v/assets/160471378/b3e08b8e-190e-4e7a-989d-5a9d3cff284c)
+
+
+![10](https://github.com/rajesh0gouda/vsd-risc-v/assets/160471378/a3829a6f-174a-42b1-ab53-e63d1806ce5c)
+
+</details>
+
+
+
+### The Fifth task was given  on  First of March 2024 
+
+<details>
+    <summary> TASK 5 </summary>
+
+*Design file after git clone*
+
+*We are checking gtkwave for the design*
+
+```iverilog 8usr.v 8usrtb.v```
+
+```./a.out ```
+
+``` gtkwave iiitb_usr_out.vcd```
+
+![11](https://github.com/rajesh0gouda/vsd-risc-v/assets/160471378/34514c54-a1b4-405c-9411-bf2e4a222b5e)
+
+
+![12](https://github.com/rajesh0gouda/vsd-risc-v/assets/160471378/1d89cf5f-04a8-4526-8ce2-9aa3e85d041d)
+
+
+![13](https://github.com/rajesh0gouda/vsd-risc-v/assets/160471378/152a8102-d715-4026-ae42-8c5a5f2f7a01)
+
+### To generate netlist:
+
+*Invoking yosys inside verilog_code file:* 
+
+```yosys```
+![21](https://github.com/rajesh0gouda/vsd-risc-v/assets/160471378/564da1c7-546c-44e6-8665-bb222ca115f4)
+![22](https://github.com/rajesh0gouda/vsd-risc-v/assets/160471378/199a152c-fdbc-491d-87f7-e7b1dae4cc42)
+![23](https://github.com/rajesh0gouda/vsd-risc-v/assets/160471378/7da00e11-6fea-4d06-bd05-61d9b4a8af45)
+![24](https://github.com/rajesh0gouda/vsd-risc-v/assets/160471378/2f50fe1a-fd7d-4919-a482-626fd0d0c937)
+![25](https://github.com/rajesh0gouda/vsd-risc-v/assets/160471378/6c10fd28-3fae-4a9a-9963-2b0becf70769)
+![26](https://github.com/rajesh0gouda/vsd-risc-v/assets/160471378/b3da8f5b-3a9d-4e62-ba73-b5dd9347ef15)
+![27](https://github.com/rajesh0gouda/vsd-risc-v/assets/160471378/9883a710-5b83-4282-ae2f-4fdfe7e5621c)
+![28](https://github.com/rajesh0gouda/vsd-risc-v/assets/160471378/3388de2f-8465-4867-ae2e-e13530f58a3d)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
