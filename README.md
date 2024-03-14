@@ -317,9 +317,55 @@ Universal shift registers are capable of performing 3 operations as listed below
 
 ```yosys```
 ![21](https://github.com/rajesh0gouda/vsd-risc-v/assets/160471378/564da1c7-546c-44e6-8665-bb222ca115f4)
+
+*Reading the Library:* 
+
+```read_liberty -lib /home/rajeshgouda/vsd-risc-v/sky130_fd_sc_hd__tt_025C_1v80.lib```
+
+
+*Reading the Design:*    
+
+```read_verilog 8usr.v```
+
+
+*Specifying the module that we are synthesizing:*    
+
+```synth -top iiitb_usr```
+
+
+*To generate the netlist:*    
+
+```abc -liberty /home/rajeshgouda/vsd-risc-v/sky130_fd_sc_hd__tt_025C_1v80.lib```
+
+
 ![22](https://github.com/rajesh0gouda/vsd-risc-v/assets/160471378/199a152c-fdbc-491d-87f7-e7b1dae4cc42)
+
+*To see the graphical version of the logic:*    
+
+```show```
+
+
+*To write the netlist:*    
+
+```write_verilog usr_netlist.v```
+
+*Using the switch '-noattr' to get the simplified version of netlist file:*    
+
+```write_verilog -noattr usr_netlist.v```
+
+```show```
+*To open the netlist:*    
+
+```!gvim usr_netlist.v``
+
+
 ![23](https://github.com/rajesh0gouda/vsd-risc-v/assets/160471378/7da00e11-6fea-4d06-bd05-61d9b4a8af45)
+
 ![24](https://github.com/rajesh0gouda/vsd-risc-v/assets/160471378/2f50fe1a-fd7d-4919-a482-626fd0d0c937)
+
+
+##To open the netlist file
+
 ![25](https://github.com/rajesh0gouda/vsd-risc-v/assets/160471378/6c10fd28-3fae-4a9a-9963-2b0becf70769)
 ![26](https://github.com/rajesh0gouda/vsd-risc-v/assets/160471378/b3da8f5b-3a9d-4e62-ba73-b5dd9347ef15)
 ![27](https://github.com/rajesh0gouda/vsd-risc-v/assets/160471378/9883a710-5b83-4282-ae2f-4fdfe7e5621c)
@@ -327,6 +373,12 @@ Universal shift registers are capable of performing 3 operations as listed below
 
 
 ## GATE LEVEL SIMULATION TO RUN THE NETLIST
+
+```iverilog primitives.v sky.v usr_netlist.v 8usrtb.v```
+
+```./a.out```
+
+```gtkwave iiitb_usr_out.vcd```
 
 ![31](https://github.com/rajesh0gouda/vsd-risc-v/assets/160471378/eaf7a5e8-c239-4185-bcb4-50d335dc37da)
 
