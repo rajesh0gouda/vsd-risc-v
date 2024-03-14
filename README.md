@@ -278,6 +278,12 @@ Universal shift registers are capable of performing 3 operations as listed below
 
 ![10](https://github.com/rajesh0gouda/vsd-risc-v/assets/160471378/a3829a6f-174a-42b1-ab53-e63d1806ce5c)
 
+## GATE LEVEL SIMULATION TO RUN THE NETLIST
+![41](https://github.com/rajesh0gouda/vsd-risc-v/assets/160471378/cf06eae6-74f8-465b-842a-36cd6fd110e1)
+
+
+![42](https://github.com/rajesh0gouda/vsd-risc-v/assets/160471378/7a28b1bb-b703-4a91-99a6-c833604688e3)
+
 </details>
 
 
@@ -319,6 +325,13 @@ Universal shift registers are capable of performing 3 operations as listed below
 ![27](https://github.com/rajesh0gouda/vsd-risc-v/assets/160471378/9883a710-5b83-4282-ae2f-4fdfe7e5621c)
 ![28](https://github.com/rajesh0gouda/vsd-risc-v/assets/160471378/3388de2f-8465-4867-ae2e-e13530f58a3d)
 
+
+## GATE LEVEL SIMULATION TO RUN THE NETLIST
+
+![31](https://github.com/rajesh0gouda/vsd-risc-v/assets/160471378/eaf7a5e8-c239-4185-bcb4-50d335dc37da)
+
+
+![32](https://github.com/rajesh0gouda/vsd-risc-v/assets/160471378/db10d40a-077a-4754-a6ac-5944cb8628aa)
 
 
 
