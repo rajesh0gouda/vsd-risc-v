@@ -382,8 +382,8 @@ Universal shift registers are capable of performing 3 operations as listed below
 
 ![31](https://github.com/rajesh0gouda/vsd-risc-v/assets/160471378/eaf7a5e8-c239-4185-bcb4-50d335dc37da)
 
+![DONE](https://github.com/rajesh0gouda/vsd-risc-v/assets/160471378/75daaec9-e2d9-4ff5-8a43-b3ca7ed1f4b7)
 
-![32](https://github.com/rajesh0gouda/vsd-risc-v/assets/160471378/db10d40a-077a-4754-a6ac-5944cb8628aa)
 
 ## References
 <p align="justify"> In this repository all the theoretical information been found was taken from various online freely avvailable contents</p>
