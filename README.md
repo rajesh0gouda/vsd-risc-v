@@ -385,6 +385,15 @@ Universal shift registers are capable of performing 3 operations as listed below
 
 ![32](https://github.com/rajesh0gouda/vsd-risc-v/assets/160471378/db10d40a-077a-4754-a6ac-5944cb8628aa)
 
+## References
+<p align="justify"> In this repository all the theoretical information been found was taken from various online freely avvailable contents</p>
+
+## Acknowledgement 
+Thanks to 
+<br>Mr. Kunal Ghosh
+<br>The Director and co-founder of VLSI System Design (VSD) Corp. Pvt. Ltd.
+<br>India
+
 
 
 
