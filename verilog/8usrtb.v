@@ -1,13 +1,9 @@
-`timescale 1ns / 1ps
-
 module iiitb_usr_tb;
     reg [7:0] data_in;
     wire [7:0] data_out;
     reg clear,clock,sl_ser,sr_ser;
     reg [1:0] select;
-    
     iiitb_usr usr(data_in,data_out,clock,clear,select,sl_ser,sr_ser);
-    
     initial
     begin
         $dumpfile("iiitb_usr_out.vcd");
@@ -30,9 +26,7 @@ module iiitb_usr_tb;
             select=2'b10; //load input
         #30 $finish;
     end
-    
     always
-        #5 clock=!clock;
-        
+        #5 clock=!clock;   
 endmodule
 
